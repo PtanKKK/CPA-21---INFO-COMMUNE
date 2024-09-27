@@ -1,0 +1,71 @@
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Style du titre principal */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Style pour l'input de recherche */
+#commune-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Style de la boîte des suggestions */
+#suggestions {
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des éléments des suggestions */
+#suggestions div {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Surlignage lors du passage de la souris */
+#suggestions div:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style pour la section d'information de la commune */
+.info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.info p strong {
+    color: #000;
+}
